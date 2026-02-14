@@ -1,0 +1,27 @@
+# ESP-IDF
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults.old
+*.bin
+*.map
+*.elf
+
+# Local IDE
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Antigravity/Agent
+.cache/
+.agent/
+brain/
+*.log
+build_log*.txt
+flash_output*.txt
+build_output.txt
+
+# OS
+.DS_Store
+Thumbs.db
